@@ -15,7 +15,7 @@ public class BurpExtender implements IBurpExtender, IContextMenuFactory, IHttpLi
 
     private static final Charset ISO_8859_1 = StandardCharsets.ISO_8859_1;
 
-    // Marker definitions (按照你的要求，前缀是带 / 的，后缀不带 /)
+    // Marker definitions (前缀是带 / 的，后缀不带 /)
     private static final String DECODE_PREFIX = "</@decode>";
     private static final String DECODE_SUFFIX = "<@decode>";
     private static final String ENCODE_PREFIX = "</@encode>";
