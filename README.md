@@ -14,7 +14,8 @@
 - 原始选中内容：`MTIz`（为 `123` 的 Base64）
 - 右键选择“Base64 标记解码”后，请求中变为：`</@decode>MTIz<@decode>`
 - 实际发出的请求体对应位置将是：`123`
-- 编码同理，标记为：`</@encode>MTIz<@encode>`，发送时对内部内容做 Base64 编码
+- 编码同理，标记为：`</@encode>123<@encode>`，发送时对内部内容做 Base64 编码
+- 实际发送内容为`MTIz`，在logger查看
 
 编译
 - 需要 JDK 8+ 与 Gradle
