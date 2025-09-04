@@ -1,6 +1,7 @@
 # Burp Base64 Encode/Decode Marker
 
 功能概述
+(主要用于文件类的base64处理，避免burpsuite由于编码问题导致的乱码或文件异常)
 - 在 Repeater 的请求编辑器中，选中文本右键：
   - Base64 标记解码：将选中内容变为 `</@decode>...<@decode>`
   - Base64 标记编码：将选中内容变为 `</@encode>...<@encode>`
