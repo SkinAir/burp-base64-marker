@@ -18,7 +18,7 @@
 - 实际发送内容为`MTIz`，在logger查看
 
 编译
-- 需要 JDK 8+ 与 Gradle
+- 需要 JDK 17+ 与 Gradle
 - 执行：
   - Windows PowerShell: `gradle build`
   - 生成的 JAR：`build/libs/burp-base64-marker-1.0.0.jar`
